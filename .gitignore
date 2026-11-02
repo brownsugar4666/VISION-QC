@@ -1,0 +1,28 @@
+# Data
+data/visionqc.db
+data/uploads/
+data/models/*.pth
+data/models/*_metrics.json
+data/casting_dataset/
+data/sample_images/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+*.env.local
